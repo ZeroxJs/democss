@@ -1,0 +1,407 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #202339;
+}
+.navLink{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navLink li {
+    margin: 20px;
+}
+
+/* Change color on hover */
+.navLink li a:hover {
+    background-color: #111;
+}
+.newLi{
+    display: none;
+    width: 30px;
+    height: 5px;
+    background-color: #fff;
+    margin-bottom: 5px;
+}
+
+/* Hero section */
+.hero {
+    background-image: url(./img/flat-lay-burger-ingredients-wooden-table.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.heroChild {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.heroChild h2 {
+    font-size: 100px;
+}
+
+.heroChild p {
+    font-size: 40px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.heroChild button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #ff6600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.heroChild button:hover {
+    background-color: #e65c00;
+}
+
+/* First Paragraph Section */
+.firstPare {
+    text-align: center;
+    background-color: #202339;
+    padding: 20px 0;
+}
+
+.firstPare p,
+.firstPare h4,
+.firstPare h5 {
+    color: white;
+}
+
+.firstPare h4 {
+    font-size: 30px;
+}
+
+/* Parent Div Section */
+.parentDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.firstDiv {
+    margin: 20px;
+    text-align: center;
+}
+
+.firstDiv img {
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.firstDiv p {
+    width: 300px;
+    color: black;
+}
+
+/* New Paragraph Section */
+.newPare {
+    display: flex;
+    justify-content: center;
+    background-color: #FED884;
+    padding: 20px 0;
+}
+
+.newFirst,
+.newSec {
+    padding: 20px;
+    text-align: center;
+}
+
+.newFirst img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.newSec h4 {
+    font-size: 40px;
+}
+
+.newSec p {
+    font-size: 20px;
+    width: 400px;
+    margin-top: 20px;
+    margin: 0 auto;
+}
+
+.newSec button {
+    margin-top: 45px;
+    padding: 10px 20px;
+    font-size: 35px;
+    color: white;
+    background-color: #ff6600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.newSec button:hover {
+    background-color: #e65c00;
+}
+
+/* New Moyo Section */
+.newMoyo {
+    background-image: url(./img/modern-kitchen-interior-design.jpg);
+    text-align: center;
+    background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 100vh;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        opacity: 0.6; color: #111;
+        
+}
+
+
+/* New Wole Section */
+.newWole {
+    padding: 20px;
+        text-align: center;
+        
+}
+
+.newWole h4 {
+    font-size: 40px;
+    color: black
+}
+
+.newWole p {
+    font-size: 20px;
+        width: 400px;
+        margin-top: 20px;
+        margin: 0 auto;
+        color: black
+}
+.newDiv {
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-color: #FED084;
+    width: 100%;
+    height: 100vh;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #111;
+
+}
+.newDiv h4{
+    font-size: 40px;
+    color: black;
+}
+
+.newDiv p{
+font-size: 20px;
+width: 400px;
+margin-top: 20px;
+    margin: 0 auto;
+    color: black
+}
+.inputBtn{
+display: flex;
+justify-content: center;
+}
+.inputBtn input{
+    border-radius: 200px;
+    padding: 10px;
+}
+.inputBtn button{
+    border-radius: 200px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    margin-left: -50px;
+}
+
+footer{
+    background-color: #111;
+}
+
+.footer{
+    display: flex;
+    background-color: #111;
+    color: white;
+    justify-content:  center;
+    padding: 100px;
+}
+.contDiv{
+    margin-right: 200px;
+    font-size: 20px;
+}
+.contDiv p{
+    width: 600px;
+}
+.listDiv{
+    display: flex;
+}
+.listDiv ul{
+    list-style: none;
+    margin-left: 20px;
+    display: block;
+}
+.listDiv li{
+    font-size: 20px;
+}
+.lib{
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+.Copyright {
+    margin-top: 20px;
+    font-size: 16px;
+    justify-content: center;
+}
+
+.Copyright a {
+    color: white;
+    text-decoration: none;
+}
+
+.Copyright a:hover {
+    text-decoration: underline;
+}
+@media screen and (max-width:800px) {
+header{
+    background-color: #202320;
+    height: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.navLink{
+    list-style: none;
+    display: none;
+    justify-content: center;
+}
+.newLi{
+    display: block;
+}
+
+.parentDiv {
+    display: block;
+    justify-content: center;
+}
+
+.firstDiv {
+    margin: 20px;
+    text-align: center;
+}
+
+.firstDiv img {
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.firstDiv p {
+    width: 300px;
+    color: black;
+    margin-left: 220px;
+}
+
+/* New Paragraph Section */
+.newPare {
+    display: block;
+    justify-content: center;
+    background-color: #FED884;
+    padding: 20px 0;
+}
+
+.newFirst,
+.newSec {
+    padding: 20px;
+    text-align: center;
+}
+
+.newFirst img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.newSec h4 {
+    font-size: 40px;
+}
+
+.newSec p {
+    font-size: 20px;
+    width: 400px;
+    margin-top: 20px;
+    margin: 0 auto;
+}
+
+.newSec button {
+    margin-top: 45px;
+    padding: 10px 20px;
+    font-size: 35px;
+    color: white;
+    background-color: #ff6600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.newSec button:hover {
+    background-color: #e65c00;
+}
+footer {
+    background-color: #111;
+}
+
+.footer {
+    display: block;
+    background-color: #111;
+    color: white;
+    justify-content: center;
+    padding: 100px;
+}
+
+.contDiv {
+    margin-right: 200px;
+    font-size: 20px;
+}
+
+.contDiv p {
+    width: 600px;
+}
+
+.listDiv {
+    display: flex;
+}
+
+.listDiv ul {
+    list-style: none;
+    margin-left: 20px;
+    display: block;
+}
+
+.listDiv li {
+    font-size: 20px;
+}
+
+.lib {
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+}
